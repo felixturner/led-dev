@@ -1,0 +1,31 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.cpp text
+*.h text
+*.c text
+*.ino text
+*.py text
+*.md text
+*.ini text
+*.json text
+*.yml text
+*.yaml text
+
+# Windows-specific files should always use CRLF
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files (don't try to normalize)
+*.bmp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.elf binary
+*.bin binary
+*.a binary
+*.o binary
