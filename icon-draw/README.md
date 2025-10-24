@@ -1,6 +1,6 @@
-# ESP32 Trinity LED Matrix Display
+# icon-draw - ESP32 LED Matrix Icons
 
-A PlatformIO project for displaying BMP images on a 64x64 HUB75 LED matrix panel using an ESP32 Trinity board.
+A PlatformIO project for displaying BMP icon images on a 64x64 HUB75 LED matrix panel using an ESP32 Trinity board.
 
 ## Project Summary
 
@@ -159,7 +159,7 @@ const unsigned long FADE_TIME = 500;     // Fade transition duration (ms)
 ## Project Structure
 
 ```
-png-draw/
+icon-draw/
 ├── src/
 │   ├── main.cpp          # Main application code
 │   ├── bmp_handler.h     # BMP function declarations
