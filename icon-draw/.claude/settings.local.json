@@ -19,7 +19,9 @@
       "Bash(del build.bat upload.bat upload_filesystem.bat)",
       "Bash(git rm:*)",
       "Bash(git log:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git reflog:*)",
+      "Bash(git gc:*)"
     ],
     "deny": [],
     "ask": []

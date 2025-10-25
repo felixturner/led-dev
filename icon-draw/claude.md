@@ -2,20 +2,25 @@
 
 ## 🔴 IMPORTANT RULES
 
-1. **DO NOT run `pio run -t upload` or `pio run` commands without asking user first!**
+1. **DO NOT commit or push to git without asking user first!**
+   - ALWAYS ask before running `git commit` or `git push`
+   - User wants to review changes before they are committed
+   - No exceptions - even for documentation or small fixes
+
+2. **DO NOT run `pio run -t upload` or `pio run` commands without asking user first!**
    - User prefers to run compile and upload commands himself to see the output directly.
 
-2. **DO NOT modify user's code edits without discussing first!**
+3. **DO NOT modify user's code edits without discussing first!**
    - If user has manually edited values (timing constants, configuration, etc.), respect those changes.
    - DO NOT revert or "fix" user edits unless explicitly asked.
    - If you think a value should be different, ASK first, don't just change it.
 
-3. **RESPECT original line endings when editing files!**
+4. **RESPECT original line endings when editing files!**
    - Windows project uses CRLF line endings
    - Do NOT change line endings to LF when editing
    - This causes git warnings about line ending changes
 
-4. **DO NOT add Claude credits to git commits!**
+5. **DO NOT add Claude credits to git commits!**
    - No "Generated with Claude Code" footer
    - No "Co-Authored-By: Claude" signature
    - Keep commit messages clean and professional
