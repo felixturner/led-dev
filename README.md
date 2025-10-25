@@ -13,6 +13,15 @@ ESP32 Trinity LED Matrix display project that shows BMP images with smooth fade 
 
 [View icon-draw README](icon-draw/README.md)
 
+### alien-clock
+ESP32 Trinity LED Matrix display project with animated grid patterns.
+- 64x64 HUB75 LED Matrix Panel
+- 2×2 grid of 7×7 cell patterns
+- Glitching Matrix-style animation
+- Minimal black and white aesthetic
+
+[View alien-clock README](alien-clock/README.md)
+
 ## Hardware
 
 - **Board**: ESP32 Trinity
